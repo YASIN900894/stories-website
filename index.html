@@ -3,38 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>قصص مشوقة</title>
+    <title>مكتبة القصص</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
 </head>
 <body>
     <header>
-        <h1>أكبر مكتبة قصص</h1>
-        <nav>
-            <ul>
-                <li><a href="#short-stories">قصص قصيرة</a></li>
-                <li><a href="#long-stories">قصص طويلة</a></li>
-                <li><a href="#series">أجزاء القصص</a></li>
-            </ul>
-        </nav>
+        <h1>مرحبًا بكم في مكتبة القصص المشوقة</h1>
     </header>
-
-    <section id="short-stories">
-        <h2>قصص قصيرة</h2>
-        <p>هنا تجد القصص القصيرة الممتعة...</p>
-    </section>
-
-    <section id="long-stories">
-        <h2>قصص طويلة</h2>
-        <p>استمتع بالقصص الطويلة التي ستجعلك مشدودًا حتى النهاية...</p>
-    </section>
-
-    <section id="series">
-        <h2>أجزاء القصص</h2>
-        <p>كل قصة مقسمة إلى أجزاء مشوقة...</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 قصص مشوقة. جميع الحقوق محفوظة.</p>
-    </footer>
+    <main>
+        <section id="short-stories">
+            <h2>قصص قصيرة</h2>
+            <button id="short-btn">عرض قصة قصيرة</button>
+            <p id="short-story"></p>
+        </section>
+        <section id="long-stories">
+            <h2>قصص طويلة</h2>
+            <button id="long-btn">عرض قصة طويلة</button>
+            <p id="long-story"></p>
+        </section>
+        <section id="series">
+            <h2>أجزاء من القصص</h2>
+            <button id="series-btn">عرض جزء من قصة</button>
+            <p id="series-story"></p>
+        </section>
+    </main>
 </body>
 </html>
